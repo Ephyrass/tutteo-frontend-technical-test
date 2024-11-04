@@ -1,16 +1,7 @@
 import { defineStore } from "pinia"
 import { ref, computed } from "vue"
 import data from "@/data/data.json"
-export interface Music {
-  id: number
-  title: string
-  artist: string
-  album: string
-  cover: string
-  liked: boolean
-  song: string
-  duration: string
-}
+import { Music } from "@/types/music"
 
 export const useMusicStore = defineStore("music", () => {
   // State

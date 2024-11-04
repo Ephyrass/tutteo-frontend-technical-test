@@ -26,6 +26,7 @@
           v-for="song in store.filteredSongs"
           :key="song.id"
           class="flex items-center space-x-4 p-3 rounded-lg hover:bg-slate-800 transition-colors cursor-pointer"
+          data-unit="song-item"
           :class="{ 'bg-slate-800': store.currentSongId === song.id }"
           @click="store.setCurrentSong(song)"
         >
@@ -39,7 +40,7 @@
               <div v-if="store.isPlaying" class="flex space-x-1">
                 <div v-for="n in 3" :key="n" class="w-1 h-3 bg-white animate-pulse" />
               </div>
-              <Pause v-else class="w-6 h-6 text-white" />
+              <Pause v-else class="w-6 h-6 text-white" data-unit="pause-icon" />
             </div>
           </div>
 
