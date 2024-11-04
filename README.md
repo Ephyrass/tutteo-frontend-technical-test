@@ -152,6 +152,7 @@ The interface automatically adapts to different screen sizes:
 
 ## 🔜 Roadmap
 
+- [ ] Add unit test for MusicPlayer
 - [ ] CI/CD -> https://docs.github.com/fr/actions
 - [ ] Improve UI & UX design
 - [ ] Support for custom playlists
