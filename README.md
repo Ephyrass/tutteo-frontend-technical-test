@@ -32,8 +32,8 @@ A modern music player built with Vue 3, TypeScript, Pinia, and Tailwind CSS. Thi
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/vue-music-player.git
-cd vue-music-player
+git clone https://github.com/Ephyrass/tutteo-frontend-technical-test.git
+cd tutteo-frontend-technical-test
 ```
 
 2. Install dependencies
