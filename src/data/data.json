@@ -1,0 +1,144 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "artist": "Lokssi",
+      "title": "Flow",
+      "album": "Loka",
+      "cover": "https://cdn.pixabay.com/audio/2024/04/14/22-20-51-951_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "duration": "6:12",
+      "liked": false
+    },
+    {
+      "id": 2,
+      "artist": "Amaski",
+      "title": "Night Detective",
+      "album": "Eyes",
+      "cover": "https://cdn.pixabay.com/audio/2023/10/24/15-08-22-671_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "duration": "7:05",
+      "liked": false
+    },
+    {
+      "id": 3,
+      "artist": "Rockot",
+      "title": "Amalgam",
+      "album": "Rock",
+      "cover": "https://cdn.pixabay.com/audio/2024/07/30/00-45-40-450_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "duration": "5:44",
+      "liked": false
+    },
+    {
+      "id": 4,
+      "artist": "For the Emperor",
+      "title": "Imperium",
+      "album": "War",
+      "cover": "https://cdn.pixabay.com/audio/2023/07/22/17-23-51-813_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "duration": "5:02",
+      "liked": false
+    },
+    {
+      "id": 5,
+      "artist": "Lion El'Jhonson",
+      "title": "Warp me",
+      "album": "Warp",
+      "cover": "https://cdn.pixabay.com/audio/2024/06/25/10-06-34-296_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "duration": "5:53",
+      "liked": false
+    },
+    {
+      "id": 6,
+      "artist": "Abadon",
+      "title": "Heresy",
+      "album": "Chaos",
+      "cover": "https://cdn.pixabay.com/audio/2023/09/17/18-11-08-234_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "duration": "4:39",
+      "liked": false
+    },
+    {
+      "id": 7,
+      "artist": "Titus",
+      "title": "Movement",
+      "album": "Space",
+      "cover": "https://cdn.pixabay.com/audio/2023/08/25/15-25-41-965_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "duration": "7:00",
+      "liked": false
+    },
+    {
+      "id": 8,
+      "artist": "Dj Quads",
+      "title": "Better Days",
+      "album": "Quads",
+      "cover": "https://cdn.pixabay.com/audio/2023/10/03/03-34-18-650_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "duration": "5:25",
+      "liked": false
+    },
+    {
+      "id": 9,
+      "artist": "Orcky",
+      "title": "Warg",
+      "album": "Orck",
+      "cover": "https://cdn.pixabay.com/audio/2023/10/06/12-10-40-317_200x200.png",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "duration": "6:29",
+      "liked": false
+    },
+    {
+      "id": 10,
+      "artist": "Dj Quads",
+      "title": "Missing Someone",
+      "album": "Quads",
+      "cover": "https://cdn.pixabay.com/audio/2023/10/03/03-34-18-650_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "duration": "8:47",
+      "liked": false
+    },
+    {
+      "id": 11,
+      "artist": "Dj Quads",
+      "title": "It just makes me happy",
+      "album": "Quads",
+      "cover": "https://cdn.pixabay.com/audio/2023/10/03/03-34-18-650_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "duration": "9:11",
+      "liked": false
+    },
+    {
+      "id": 12,
+      "artist": "Dj Quads",
+      "title": "Soul",
+      "album": "Quads",
+      "cover": "https://cdn.pixabay.com/audio/2023/10/03/03-34-18-650_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "duration": "8:33",
+      "liked": false
+    },
+    {
+      "id": 13,
+      "artist": "Dj Quads",
+      "title": "Blushes",
+      "album": "Quads",
+      "cover": "https://cdn.pixabay.com/audio/2023/10/03/03-34-18-650_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "duration": "4:50",
+      "liked": false
+    },
+    {
+      "id": 14,
+      "artist": "Dj Quads",
+      "title": "Cruise around",
+      "album": "Quads",
+      "cover": "https://cdn.pixabay.com/audio/2023/10/03/03-34-18-650_200x200.jpg",
+      "song": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "duration": "8:36",
+      "liked": false
+    }
+  ]
+}
