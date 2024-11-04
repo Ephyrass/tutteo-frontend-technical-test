@@ -17,6 +17,7 @@ export const useMusicStore = defineStore("music", () => {
   const songs = ref<Music[]>(data.artists)
   const currentSongId = ref<number | null>(null)
   const isPlaying = ref(false)
+  const searchQuery = ref("")
   const isMuted = ref(false)
   const isShuffled = ref(false)
   const shuffledQueue = ref<number[]>([])
@@ -24,6 +25,25 @@ export const useMusicStore = defineStore("music", () => {
 
   // Getters
   const currentSong = computed(() => songs.value.find((song) => song.id === currentSongId.value))
+
+  const totalDuration = computed(() => {
+    const totalSeconds = songs.value.reduce((acc, song) => {
+      const [minutes, seconds] = song.duration.split(":").map(Number)
+      return acc + minutes * 60 + seconds
+    }, 0)
+    const hours = Math.floor(totalSeconds / 3600)
+    const remainingSeconds = totalSeconds % 3600
+    const minutes = Math.floor(remainingSeconds / 60)
+    const seconds = remainingSeconds % 60
+    return `${hours ? `${hours}h ` : ""}${minutes}mn ${seconds}s`
+  })
+
+  const filteredSongs = computed(() => {
+    const query = searchQuery.value.toLowerCase()
+    return songs.value.filter(
+      (song) => song.title.toLowerCase().includes(query) || song.artist.toLowerCase().includes(query),
+    )
+  })
 
   const currentSongIndex = computed(() => {
     if (!currentSongId.value) return -1
@@ -96,6 +116,10 @@ export const useMusicStore = defineStore("music", () => {
     }
   }
 
+  function setSearchQuery(query: string) {
+    searchQuery.value = query
+  }
+
   function toggleShuffle() {
     isShuffled.value = !isShuffled.value
     if (isShuffled.value) {
@@ -116,6 +140,7 @@ export const useMusicStore = defineStore("music", () => {
     songs,
     currentSongId,
     isPlaying,
+    searchQuery,
     isMuted,
     isShuffled,
     shuffledQueue,
@@ -123,12 +148,15 @@ export const useMusicStore = defineStore("music", () => {
 
     // Getters
     currentSong,
+    filteredSongs,
+    totalDuration,
     currentSongIndex,
 
     // Actions
     setCurrentSong,
     togglePlay,
     toggleLike,
+    setSearchQuery,
     nextSong,
     previousSong,
     toggleShuffle,
